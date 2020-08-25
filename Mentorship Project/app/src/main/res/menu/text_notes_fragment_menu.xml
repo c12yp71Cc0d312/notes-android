@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/sort"
+        android:icon="@drawable/ic_sort"
+        app:showAsAction="ifRoom"
+        android:title="Sort">
+
+        <menu>
+            <item android:id="@+id/TitleAtoz"
+                android:title="Title (A to z)"/>
+            <item android:id="@+id/TitleztoA"
+                android:title="Title (z to A)"/>
+            <item android:id="@+id/createdNewToOld"
+                android:title="Created(newest to oldest)"/>
+            <item android:id="@+id/createdOldToNew"
+                android:title="Created(oldest to newest)"/>
+        </menu>
+
+    </item>
+
+</menu>

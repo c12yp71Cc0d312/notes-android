@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/save_button"
+        android:icon="@drawable/ic_save"
+        android:title="Save"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/stt"
+        android:icon="@drawable/ic_mic_black_24dp"
+        android:title="Voice Typing"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/fonts"
+        android:title="Fonts">
+
+        <menu>
+            <item
+                android:id="@+id/cbyg"
+                android:title="covered by your grace" />
+            <item
+                android:id="@+id/satisfy"
+                android:title="satisfy" />
+            <item
+                android:id="@+id/schoolbell"
+                android:title="schoolbell" />
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/colors"
+        android:title="Colors">
+        <menu>
+            <item
+                android:id="@+id/colorContent"
+                android:title="Text color" />
+            <item
+                android:id="@+id/colorTitle"
+                android:title="Title color" />
+            <item
+                android:id="@+id/colorBackground"
+                android:title="Background color" />
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/imageMenu"
+        android:title="Image">
+        <menu>
+            <item
+                android:id="@+id/imagePicker"
+                android:title="Insert Image" />
+            <item
+                android:id="@+id/deleteImage"
+                android:title="Remove Image" />
+        </menu>
+    </item>
+
+</menu>
